@@ -41,7 +41,7 @@ for (let i = 1; i <= 15; i++) {
 
 /*
 5. MULTIPLICATION TABLE
-   Print the multiplication table for 5 (5x1, 5x2, 5x3... up to 5x10).
+   Prints the multiplication table for 5 (5x1, 5x2, 5x3... up to 5x10).
  */
 
 console.log('\n');
@@ -52,7 +52,7 @@ for (let i = 1; i <= 10; i++) {
 
 /*
 6. SUM CALCULATOR
-   Use a for loop to calculate the sum of numbers from 1 to 100.
+   Uses a for loop to calculate the sum of numbers from 1 to 100.
  */
 console.log('\n');
 let sum = 0;
@@ -70,3 +70,41 @@ for (let i = 1; i <= 10; i++) {
     console.log(`${i}² = ${i * i}`);
 }
 
+/*
+### 8. ALPHABET LOOP
+**Goal:** Print each letter A through Z
+*/
+
+console.log('\n');
+for (let i = 65; i <= 90; i++) {
+    console.log(String.fromCharCode(i).toLowerCase());
+}
+
+/*
+### 9. COUNTDOWN TIMER
+**Goal:** Count from 10 to 0, then print "Blast off!"
+ */
+
+console.log('\n');
+for (let i = 10; i > 0; i--) {
+    console.log(i);
+}
+console.log('Blast off!');
+
+/*
+### 10. REPEATED MESSAGE
+**Goal:** Print "I love programming!" exactly 7 times
+ */
+
+console.log('\n');
+for (let i = 1; i <= 7; i++) {
+    console.log('I love programming!');
+}
+
+for (let i = 20; i >= 0; i--) {
+    if (i % 2 === 0) {
+        console.log(`${i} is even!`);
+    } else {
+        console.log(`${i} is odd!`);
+    }
+}
