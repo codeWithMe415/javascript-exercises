@@ -53,9 +53,9 @@ for (let i = 0; i < str.length; i++) {
 // ### Challenge 8: Multiplication Table
 // This loop prints the multiplication table for the number 5.
 console.log('\n');
-const newNums = 5;
+const base = 5;
 for (let i = 1; i <= 10; i++) {
-    console.log(`${newNums} x ${i} = ${newNums * i}`);
+    console.log(`${base} x ${i} = ${base * i}`);
 }
 
 // ### Challenge 9: While Loop Counter
@@ -73,10 +73,29 @@ console.log('\n');
 let counter = 1;
 const message = 'Hello';
 do {
-    counter++;
     console.log(message);
+    counter++;
 } while (counter <= 3);
 
 // ### Challenge 11: Array Sum
-// This challenge is empty.
+// This loop calculates the sum of all numbers in an array.
 console.log('\n');
+const numbersForSum = [10, 20, 30, 40, 50];
+let arraySum = 0;
+for (const n of numbersForSum) {
+    arraySum += n;
+}
+console.log(arraySum);
+
+
+// ### Challenge 12: Find Maximum
+// This loop finds the maximum number in an array.
+console.log('\n');
+const largeNumArr = [3, 7, 2, 9, 1];
+let maxNum = 0;
+
+for (var i = largeNumArr.length; i <= 10; i++) {
+    i = largeNumArr
+    console.log(i)
+}
+
